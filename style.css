@@ -1,0 +1,91 @@
+
+.container_css {
+    width: 40%;
+    background-color: #6e6c6c80;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 0.25em;
+    text-align: right;
+}
+.container_css h2{
+    text-align: center;
+    color: seagreen;
+}
+
+.container_css > h2{
+    text-transform: uppercase;
+    color: black !important;
+}
+
+
+.container_css > form > * + * {
+    margin-top: 1.5rem !important;
+}
+
+.container_css > form > div{
+    /* width: max-content; */
+    /* display: inline-block; */
+    color: rgb(99, 96, 96);
+    font-size: 18px;
+    margin: auto;
+}
+
+.container_css > form > div input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 2.0em;
+    outline: none;
+    border: 1px solid #dadce0;
+    width: 30vw;
+    box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3);
+}
+
+.container_css > form > div input[type="radio"] {
+    width: max-content !important;
+}
+
+.container_css > form > div label {
+    font-weight: 600;
+}
+
+.container_css > form > div select {
+    padding: 5px 10px;
+    box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3);
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+}
+
+.container_css > form button {
+    padding: 5px 10px;
+    background-color: seagreen;
+    color: seashell;
+}
+.line {
+    height: 1px;
+    width: 20%;
+    display: inline-block;
+    background-color: #198754;
+    margin-bottom: 5px
+}
+
+.line:first-child {
+    margin-right: 10px;
+}
+.line:nth-child(3) {
+    margin-left: 10px;
+}
+
+.main_content {
+    background-color: rgba(141, 141, 141,0.8);
+    border-radius: 10px;
+}
+
+@media (max-width: 668px) {
+    .container_css {
+        width: 100%;
+    }
+    .container_css > form > div input {
+        width: 60vw;
+    }
+}
